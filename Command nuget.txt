@@ -1,0 +1,6 @@
+dotnet ef migrations add InitialMigration --project "C:\_Projetos\Udemy\DotNET-Core-Clean-Architecture\CleanArchDemo\CleanArch\CleanArch.Mvc\" --context ApplicationDbContext
+
+
+dotnet ef database update --project "C:\_Projetos\Udemy\DotNET-Core-Clean-Architecture\CleanArchDemo\CleanArch\CleanArch.Mvc\"
+
+dotnet ef migrations remove --project "C:\_Projetos\Udemy\DotNET-Core-Clean-Architecture\CleanArchDemo\CleanArch\CleanArch.Mvc\"
