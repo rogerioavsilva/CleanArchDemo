@@ -12,7 +12,7 @@ using CleanArch.Mvc.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using CleanArch.Infra.Data;
+using CleanArch.Infra.Data.Context;
 
 namespace CleanArch.Mvc
 {
