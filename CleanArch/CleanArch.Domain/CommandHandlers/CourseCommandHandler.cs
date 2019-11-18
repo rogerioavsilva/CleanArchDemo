@@ -24,7 +24,7 @@ namespace CleanArch.Domain.CommandHandlers
             {
                 Name = request.Name,
                 Description = request.Description,
-                imageUrl = request.ImageUrl
+                ImageUrl = request.ImageUrl
             };
 
             _courseRepository.Add(course);
